@@ -1,0 +1,22 @@
+#include <iostream>
+#include "Patterns.h"
+
+using namespace std;
+
+void printPatternA() {
+    for (int row = 1; row <= 5; row++) {
+        for (int star = 1; star <= row; star++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
+
+void printPatternB() {
+    for (int row = 5; row >= 1; row--) {
+        for (int star = 1; star <= row; star++) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
