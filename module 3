@@ -1,0 +1,7 @@
+#ifndef PATTERNS_H
+#define PATTERNS_H
+
+void printPatternA(); // Function to print increasing star pattern
+void printPatternB(); // Function to print decreasing star pattern
+
+#endif
